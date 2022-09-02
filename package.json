@@ -1,0 +1,16 @@
+{
+  "name": "examples",
+  "version": "1.0.0",
+  "description": "example code",
+  "main": "index.js",
+  "scripts": {
+    "AxiosGet": "node ./Examples/Axios/AxiosGet.js",
+    "NodeGet": "node ./Examples/Node/NodeGet.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}

@@ -1,4 +1,4 @@
-// Global Variables
+// External Modules
 const axios = require('axios');
 
 // Raw Axios Get Request

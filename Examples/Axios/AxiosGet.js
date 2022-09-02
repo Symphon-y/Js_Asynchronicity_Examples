@@ -2,8 +2,6 @@
 const axios = require('axios');
 
 // Raw Axios Get Request
-callstackOrder++;
-console.log(`CallStack Order: ${callstackOrder}`);
 axios
   .get('https://catfact.ninja/fact')
   .then((resp) => {
@@ -12,9 +10,6 @@ axios
   .catch((err) => {
     console.log(err);
   });
-
-callstackOrder++;
-console.log(`CallStack Order: ${callstackOrder}`);
 
 // Async Arrow Function | Try/Catch
 const asynchronousFunction = async () => {
